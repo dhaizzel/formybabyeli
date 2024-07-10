@@ -1,0 +1,97 @@
+body {
+    background-color: whitesmoke;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+    color: #e94d58;
+}
+
+p {
+    font-size: 16px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 60%;
+    height: auto;
+}
+
+button {
+    margin: 20px;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: 2px solid #e94d58;
+    cursor: pointer;
+    border-radius: 15px;
+    position: relative;
+}
+
+#yes-button {
+    background-color: #e94d58;
+    color: white;
+}
+
+#yes-button:hover {
+    background-color: white;
+    color: #e94d58;
+}
+
+#no-button {
+    background-color: white;
+    color: #e94d58;
+}
+
+#no-button:hover {
+    background-color: #e94d58;
+    color: white;
+}
+
+#next-button {
+    background-color: #e94d58;
+    color: white;
+}
+
+#letter-button {
+    background-color: #e94d58;
+    color: white;
+}
+
+#flower-button {
+    background-color: #e94d58;
+    color: white;}
+
+#back-button-letter {
+    background-color: white;
+    color: #e94d58;}
+
+#image-container, #surprise-container, #next-options, #message-container, #flower-container {
+    margin-top: 20px;
+}
+
+#heart-container {
+    text-align: center;
+    margin: 20px;
+}
+
+#heart {
+    font-size: 3em;
+    color: red;
+    cursor: pointer;
+}
+
+#paper {
+    display: none;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 20px;
+}
+
+#flower {
+    font-family: monospace;
+    white-space: pre;
+}
